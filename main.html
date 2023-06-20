@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Movie Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .movie-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1">
+        <img src="movie1.jpg" alt="Movie 1" class="movie-image">
+      </div>
+      <div class="col-md-1">
+        <img src="movie2.jpg" alt="Movie 2" class="movie-image">
+      </div>
+      <div class="col-md-1">
+        <img src="movie3.jpg" alt="Movie 3" class="movie-image">
+      </div>
+      <!-- Add more columns for the first row -->
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <img src="movie4.jpg" alt="Movie 4" class="movie-image">
+      </div>
+      <div class="col-md-2">
+        <img src="movie5.jpg" alt="Movie 5" class="movie-image">
+      </div>
+      <!-- Add more columns for the second row -->
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="movie6.jpg" alt="Movie 6" class="movie-image">
+      </div>
+      <!-- Add more columns for the third row -->
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="movie7.jpg" alt="Movie 7" class="movie-image">
+      </div>
+      <!-- Add more columns for the last row -->
+    </div>
+  </div>
 </body>
-
 </html>
